@@ -1,11 +1,11 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Grid } from '@mui/material'
 import  { ThreeDots } from "react-loader-spinner";
 
 const Loading = () => {
   return (
-    <Row className="justify-content-center">
-      <Col className="text-center">
+    <Grid container direction="row">
+      <Grid item alignItems="center">
         <ThreeDots
           type="ThreeDots"
           color="black"
@@ -13,8 +13,8 @@ const Loading = () => {
           width={100}
           timeout={3000}
         />
-      </Col>
-    </Row>
+      </Grid>
+    </Grid>
   );
 };
 
