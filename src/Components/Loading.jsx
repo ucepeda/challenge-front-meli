@@ -7,6 +7,7 @@ const Loading = () => {
     <Grid container direction="row">
       <Grid item alignItems="center">
         <ThreeDots
+          alignItems="center"
           type="ThreeDots"
           color="black"
           height={100}
