@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import logo from './../assets/Logo_ML.png';
 import searchIcon from './../assets/ic_Search.png';
 import * as C from "./../utils/constants";
-import { Stack, Grid, Button, TextField } from '@mui/material/'
+import { Stack, Button, TextField } from '@mui/material/'
 import "./../css/globals.scss"
 
 
@@ -29,12 +29,12 @@ const Header = ({ handleSearch }) => {
   return (
     <>
       <form onSubmit={search}>
-        <Stack 
+        <Stack
           className="header-main"
           direction="row"
           justifyContent="center"
           alignItems="center"
-          >
+        >
           <img
             className="logo-meli"
             alt={C.LOGO_ALT_ICO}
@@ -46,7 +46,7 @@ const Header = ({ handleSearch }) => {
             id="search"
             name="search"
             size="small"
-            
+
             placeholder={C.SEARCH_PLACEHOLDER}
           />
           <Button type="submit" className="btn-search">
@@ -55,10 +55,7 @@ const Header = ({ handleSearch }) => {
               alt={C.SEARCH_ALT_ICO}
             />
           </Button>
-
         </Stack>
-
-
       </form>
     </>
   );

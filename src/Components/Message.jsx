@@ -1,14 +1,12 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Grid, Typography } from '@mui/material'
 import PropTypes from "prop-types";
 
 const Message = ({ message }) => {
   return (
-    <Row>
-      <Col>
-        <h4 className="text-center mt-5">{message}</h4>
-      </Col>
-    </Row>
+      <Grid container direction="row">
+        <Typography alignItems="center">{message}</Typography>
+      </Grid>
   );
 };
 

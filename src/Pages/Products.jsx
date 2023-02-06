@@ -58,7 +58,6 @@ const Products = React.memo(({ searchItem }) => {
             ))}
           </section>
         </Container>
-
       </>
     );
   };
