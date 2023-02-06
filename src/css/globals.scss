@@ -1,0 +1,81 @@
+@import "constants";
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: $l-gray !important;
+}
+
+input[type="text"]:focus {
+  border-color: transparent;
+  box-shadow: unset;
+  z-index: 0 !important;
+}
+
+.btn-search {
+  background-color: $l-gray !important;
+  border: 0 !important;
+  height: 40px;
+  width: 40px;
+  min-width: 0px !important;
+}
+
+.input-search {
+  background-color: $white !important;
+  height: 40px;
+  width: 66%
+}
+
+.btn-primary {
+  background-color: $blue ;
+  border-color: $blue;
+}
+
+.logo-meli {
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.shipping-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.header-main {
+  height: 72px;
+  background-color: $primary;
+}
+
+.img-thumbnail {
+  height: 180px;
+  width: 180px;
+  border-radius: 4px;
+}
+
+.img-det {
+  width: 680px;
+  max-height: 900px;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.overflow-wrap {
+  inline-size: 200px;
+  overflow-wrap: break-word;
+}
+
+.purchase-btn {
+  background-color: $blue !important;
+}
