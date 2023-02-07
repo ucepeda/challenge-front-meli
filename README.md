@@ -7,6 +7,7 @@ Se debe contar con Node.js y Npm instalados para correr el proyecto <br>
 `git clone https://github.com/ucepeda/challenge-front-meli.git`
 
 Una vez clonado el repo, se deben instalar las dependencias del proyecto: <br>
+`cd challenge-front-meli` <br>
 `npm install`
 
 Luego, se inicia el servidor: <br>
