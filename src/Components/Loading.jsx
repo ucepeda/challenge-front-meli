@@ -1,21 +1,12 @@
 import React from "react";
-import { Grid } from '@mui/material'
-import  { ThreeDots } from "react-loader-spinner";
+import { Container, LinearProgress } from '@mui/material'
+
 
 const Loading = () => {
   return (
-    <Grid container direction="row">
-      <Grid item alignItems="center">
-        <ThreeDots
-          alignItems="center"
-          type="ThreeDots"
-          color="black"
-          height={100}
-          width={100}
-          timeout={3000}
-        />
-      </Grid>
-    </Grid>
+    <Container alignItems="center" alignContent="center" sx={{ width: "100%", height: "100%" }}>
+     <LinearProgress />
+    </Container>
   );
 };
 
