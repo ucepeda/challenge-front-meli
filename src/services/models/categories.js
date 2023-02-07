@@ -1,4 +1,4 @@
-import { Request } from "../services/request.js";
+import { Request } from "../request.js";
 
 export class Categories extends Request {
   constructor() {

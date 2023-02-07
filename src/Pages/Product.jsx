@@ -1,5 +1,5 @@
 import React, { useEffect, useReducer } from "react";
-import { Search } from "../controllers/products.js";
+import { Search } from "../services/controllers/products.js";
 import { useParams } from "react-router-dom";
 
 import Loading from "../Components/Loading";
@@ -38,10 +38,9 @@ const Product = () => {
       <>
         <Head title={product.title} description={product.description} />
         <Container>
-        <Breadcrumb categories={product.categories} />
-        <ProductView product={product} />
+          <Breadcrumb categories={product.categories} />
+          <ProductView product={product} />
         </Container>
-        
       </>
     );
   };

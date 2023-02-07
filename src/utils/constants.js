@@ -2,6 +2,7 @@ export const BASE_URL = "https://api.mercadolibre.com/";
 export const SEARCH_URL = "/items?search="
 export const NAME = "Ulises";
 export const LASTNAME = "Cepeda";
+export const PRODUCTS_LIMIT = 4;
 
 export const SEARCH_PLACEHOLDER = "Nunca dejes de buscar";
 export const SEARCH_ALT_ICO = "Search icon";

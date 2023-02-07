@@ -1,10 +1,10 @@
 import { Products } from "../models/products";
-import { Categories } from "./../models/categories";
-import { NAME, LASTNAME } from "./../utils/constants";
+import { Categories } from "../models/categories";
+import { NAME, LASTNAME } from "../../utils/constants";
 /* Service models */
-import { Author } from "./../models/author";
-import { filterToCategories } from "../services/categories.js";
-import { sendProducts, sendProduct } from "../services/products.js"
+import { Author } from "../models/author";
+import { filterToCategories } from "../categories.js";
+import { sendProducts, sendProduct } from "../products.js"
 
 const { info: author } = new Author(NAME, LASTNAME);
 const products = new Products();

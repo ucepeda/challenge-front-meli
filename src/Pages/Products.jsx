@@ -2,7 +2,7 @@ import React, { useEffect, useReducer } from "react";
 import PropTypes from "prop-types";
 
 /* Service Controller */
-import { Search } from "./../controllers/products.js";
+import { Search } from "./../services/controllers/products.js";
 
 /* components */
 import Breadcrumb from "../Components/Breadcrumb";

@@ -24,9 +24,9 @@ const ProductsView = ({
             />
           </Link>
           <Grid container direction='row'>
-            <Grid item xs={8} className="mt-16 mb-16">
+            <Grid item xs={7} className="mt-16 ml-16 mb-16">
               <Typography variant="h5" className="font-24">
-                $ {formatAsCurrency(price.amount)}{" "}
+                ${formatAsCurrency(price.amount)}{" "}
                 {free_shipping ? (
                   <img
                     src={shippingIcon}
@@ -38,7 +38,7 @@ const ProductsView = ({
               </Typography>
             </Grid>
             <Grid item xs={4}>
-              <Typography variant="subtitle1" className="font-12" color="text.secondary" sx={{ marginTop: 3 }}>
+              <Typography variant="subtitle1" className="font-12 ml-32" color="text.secondary" sx={{ marginTop: 3 }}>
                 {address}
               </Typography>
             </Grid>
