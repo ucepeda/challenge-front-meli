@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import logo from './../assets/Logo_ML.png';
 import searchIcon from './../assets/ic_Search.png';
-import * as C from "./../utils/constants";
+import * as C from './../utils/constants';
 import { Stack, Button, TextField } from '@mui/material/'
-import "./../css/globals.scss"
+import './../css/globals.scss';
 
 
 /* Search function */
