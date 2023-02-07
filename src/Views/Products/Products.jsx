@@ -1,6 +1,6 @@
 import { formatAsCurrency } from "./../../utils/helpers";
 import { Link } from "react-router-dom";
-import shippingIcon from "./../../assets/ic_shipping.png"
+import shippingIcon from "../../assets/ic_shipping.png";
 import { Card, CardMedia, Typography, Grid, Container, Divider } from '@mui/material/'
 
 

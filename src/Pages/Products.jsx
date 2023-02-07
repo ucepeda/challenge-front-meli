@@ -75,4 +75,5 @@ const Products = React.memo(({ searchItem }) => {
 Products.propTypes = {
   searchItem: PropTypes.string,
 };
+
 export default Products;
