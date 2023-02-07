@@ -6,7 +6,7 @@ const Loading = () => {
   return (
     <Container alignItems="center" alignContent="center" sx={{ width: "100%", height: "100%" }}>
      <LinearProgress />
-    </Container>
+    </Container> 
   );
 };
 
