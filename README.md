@@ -1,9 +1,9 @@
-# challenge-front-meli
+# Challenge-front-meli <br>
 Repositorio de entrega de challenge para MercadoLibre (Front End) - Ulises Cepeda
 
-Se debe contar con Node.js y Npm instalados para correr el proyecto
+Se debe contar con Node.js y Npm instalados para correr el proyecto <br>
 
-Repositorio: <br>
+# Repositorio y configuraciones: <br>
 `git clone https://github.com/ucepeda/challenge-front-meli.git`
 
 Una vez clonado el repo, se deben instalar las dependencias del proyecto: <br>
